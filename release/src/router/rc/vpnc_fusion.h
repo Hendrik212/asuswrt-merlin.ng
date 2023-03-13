@@ -5,9 +5,6 @@
 
 #define INTERNET_ROUTE_TABLE_ID	1
 
-#define L2TP_VPNC_PID	"/var/run/l2tpd-vpnc%d.pid"
-#define L2TP_VPNC_CTRL	"/var/run/l2tpctrl-vpnc%d"
-#define L2TP_VPNC_CONF	"/tmp/l2tp-vpnc%d.conf"
 
 #define SAFE_FREE(x)	if(x) {free(x); x=NULL;}
 

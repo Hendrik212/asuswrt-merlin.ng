@@ -44,9 +44,7 @@
 /* TODO: remove */
 #undef VPNC_LEGACY
 
-#define L2TP_VPNC_PID	"/var/run/l2tpd-vpnc.pid"
-#define L2TP_VPNC_CTRL	"/var/run/l2tpctrl-vpnc"
-#define L2TP_VPNC_CONF	"/tmp/l2tp-vpnc.conf"
+
 
 int vpnc_unit = 5;
 
